@@ -1,0 +1,43 @@
+.panelBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  margin: 2em;
+  padding: 0 1em;
+  border: 1px solid var(--icon-color);
+  border-radius: 10%;
+  p {
+    color: white;
+  }
+  .panelBox__header {
+    padding: 0 1em;
+    width: 100%;
+    text-align: right;
+    p {
+      color: black;
+    }
+  }
+}
+
+.PanelBox_textBox {
+  padding: 0.5em;
+
+  form {
+    border: unset;
+    border-radius: unset;
+    background-color: unset;
+    padding: unset;
+  }
+}
+
+.panelBox__weeksBtn-box {
+  button {
+    transition: 0.5s;
+  }
+  button:hover {
+    transform: translateY(-3px);
+    transition: 0.5s;
+  }
+}

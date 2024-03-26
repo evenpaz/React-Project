@@ -1,0 +1,21 @@
+.contactFormAndLocation {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: baseline;
+  height: fit-content;
+  padding: 3em 8em;
+  background-color: var(--primary-bg-color);
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .location-map {
+    display: flex;
+    flex-direction: column;
+    h1 {
+    }
+  }
+}

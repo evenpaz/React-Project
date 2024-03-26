@@ -1,0 +1,16 @@
+.employeeDataTable {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: center;
+  border: 3px solid black;
+  margin: 2em;
+  padding: 1em;
+  ul {
+    list-style: none;
+  }
+  img {
+    height: 100px;
+    width: min-content;
+  }
+}

@@ -1,0 +1,31 @@
+@keyframes moveRightAndReplace {
+  from {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50em);
+  }
+}
+
+.CustomersRecommendation-container {
+  .CustomersRecommendation-container__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 25em;
+    background-color: var(--primary-text-color);
+    span {
+      animation: 5s linear infinite moveRightAndReplace;
+    }
+    .customersRecommendation__nameAndPosition {
+      p {
+        color: var(--tertiary-text-color);
+      }
+    }
+  }
+}

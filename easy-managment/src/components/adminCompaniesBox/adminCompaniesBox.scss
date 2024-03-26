@@ -1,0 +1,34 @@
+.adminCompaniesBox {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 6em;
+}
+.companiesTableTitle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 1em;
+  width: 60%;
+  float: right;
+  p {
+    color: black;
+    font-size: large;
+  }
+}
+
+.companiesTable {
+  ul {
+    list-style: none;
+    width: 100%;
+  }
+  .dataTable__line {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    background-color: var(--primary-bg-color);
+  }
+}

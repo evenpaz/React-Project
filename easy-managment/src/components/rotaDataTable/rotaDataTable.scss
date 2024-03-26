@@ -1,0 +1,45 @@
+.dataTable__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-bg-color);
+  h1 {
+    padding: 0 5em;
+  }
+  #settings-details {
+    position: absolute;
+    display: inline;
+    background-color: var(--primary-text-color);
+    direction: rtl;
+    width: 6em;
+    padding: 1em;
+    li {
+      list-style-type: none;
+      text-align: center;
+      margin-bottom: 0.5em;
+      button {
+        color: var(--icon-color);
+      }
+    }
+    li:hover {
+      button {
+        color: var(--secondary-text-color);
+      }
+    }
+  }
+}
+
+.rota-morning-msg-false {
+  display: none;
+}
+
+.addEmployeeToShiftBox {
+  border: 1px solid var(--icon-color);
+  padding: 1em;
+  width: 4em;
+  height: 3em;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1em 0;
+  cursor: pointer;
+}

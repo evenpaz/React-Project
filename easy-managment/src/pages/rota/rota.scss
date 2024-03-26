@@ -1,0 +1,82 @@
+.rotaPage {
+  background-color: var(--primary-bg-color);
+  .rotaPage__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    .rotaPage__container-right__employeesCard-false {
+      display: none;
+    }
+
+    .rotaPage__container-right__employeesCard-true {
+      display: inline;
+    }
+
+    .rotaPage__container-left {
+      width: 70%;
+      border: 1px solid var(--icon-color);
+      padding: 1em;
+      margin: 2em;
+      height: fit-content;
+      background-color: var(--primary-text-color);
+
+      .shiftContainer {
+      }
+      .rotaTableTitle {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1em;
+      }
+      .rotaTableData-morningShifts {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          list-style: none;
+          padding: unset;
+        }
+      }
+      textarea {
+        border-radius: 10px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+#rota-settings {
+  ul {
+    position: absolute;
+    display: inline;
+    background-color: var(--primary-text-color);
+    direction: rtl;
+    width: 6em;
+    height: fit-content;
+    padding: 1em;
+    li {
+      list-style-type: none;
+      text-align: center;
+      margin-bottom: 0.5em;
+
+      a {
+        color: var(--icon-color);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    }
+    li:hover {
+      a {
+        color: var(--secondary-text-color);
+      }
+    }
+  }
+}

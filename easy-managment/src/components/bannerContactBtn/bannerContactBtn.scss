@@ -1,0 +1,13 @@
+.banner-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em 0 0.8em 10em;
+  background-color: var(--secondary-text-color);
+  background-image: url("../../../public/checkbox-icon.png");
+  background-size: 10em;
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  color: var(--primary-text-color);
+}

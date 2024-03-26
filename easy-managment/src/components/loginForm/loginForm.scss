@@ -1,0 +1,40 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  .loginForm--body__form {
+    padding: 2em 2em;
+  }
+  input {
+    text-align: left;
+  }
+  #--form__password-line {
+    display: flex;
+    width: 100%;
+    #showPassword {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 0.5em;
+    }
+  }
+  .loginForm--body--form__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+  }
+
+  .loginForm--body--form__links {
+    .hashLink,
+    a,
+    #openForgotPass-popup {
+      color: var(--quaternary-text-color);
+    }
+    #openForgotPass-popup:hover {
+      cursor: pointer;
+    }
+  }
+}

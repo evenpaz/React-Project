@@ -1,0 +1,18 @@
+.customersCounters {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 0.8em 0 0.8em 10em;
+  background-color: #31aff5;
+  background-image: url("../../../public/users-icon.png");
+  background-size: 7em;
+  background-repeat: no-repeat;
+  background-position-x: 5%;
+  background-position-y: center;
+  color: var(--primary-text-color);
+
+  .counter {
+    flex-direction: column;
+  }
+}

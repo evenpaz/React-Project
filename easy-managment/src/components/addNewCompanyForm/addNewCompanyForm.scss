@@ -1,0 +1,43 @@
+.addNewCompanyForm {
+  display: flex;
+  justify-content: center;
+
+  input,
+  select {
+    text-align: right;
+    width: 54%;
+  }
+
+  label {
+    width: 19.5em;
+  }
+
+  select {
+    appearance: none;
+    background-image: url("../../../public/icon-arrow-down.png");
+    background-size: 5%;
+    background-position: right 5% top 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  .fileNameBox-choose,
+  .fileNameBox-empty {
+    margin-top: 0.5em;
+    padding: 0 0.5em;
+    width: 23em;
+    text-align: center;
+    font-size: small;
+    overflow: hidden;
+    p {
+      margin: 0.5em;
+    }
+  }
+
+  .fileNameBox-choose {
+    border: 1px solid green;
+  }
+  .fileNameBox-empty {
+    border: 1px solid red;
+  }
+}

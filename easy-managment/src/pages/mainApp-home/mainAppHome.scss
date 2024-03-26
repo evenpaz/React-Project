@@ -1,0 +1,26 @@
+.mainAppHomePage {
+  background-color: var(--primary-bg-color);
+  .mainAppHomePage__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+  }
+  .timeClockBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .timeClockBox__date {
+    p {
+      color: var(--secondary-text-color);
+      font-size: 2.5em;
+      text-align: center;
+    }
+    .clockItBtn {
+      p {
+        color: white;
+      }
+    }
+  }
+}

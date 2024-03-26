@@ -1,0 +1,32 @@
+.qa-boxes {
+  box-shadow: inset 0.1px 0.1px 5px;
+  border: 1px solid var(--icon-color);
+  margin-left: 3em;
+}
+
+.qa-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: right;
+  direction: rtl;
+  background-color: var(--primary-text-color);
+  margin: 0.2em 0;
+  padding: 0 1em;
+  .show-answer {
+    background-color: transparent;
+    font-size: x-large;
+    border: none;
+  }
+  .qa-question-answer-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.qa-box:hover {
+  cursor: pointer;
+  .qa-question {
+    color: var(--tertiary-text-color);
+    transition: ease-out 0.3s;
+  }
+}

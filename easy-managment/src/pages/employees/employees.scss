@@ -1,0 +1,108 @@
+.employeesPage {
+  background-color: var(--primary-bg-color);
+  .employeesPage__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    .employeesPage__container-left {
+      width: 70%;
+      border: 1px solid var(--icon-color);
+      padding: 1em;
+      margin: 2em;
+      background-color: var(--primary-text-color);
+
+      .employeesTableTitle {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 1em;
+        margin-left: 5em;
+      }
+
+      .employeesTable {
+        ul {
+          list-style: none;
+          width: 100%;
+        }
+        .dataTable__line {
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-items: center;
+          margin: 1em;
+          padding: 1em;
+          #toggleBtnSpan {
+            position: absolute;
+            left: 3em;
+          }
+
+          // img {
+          // border-radius: 50%;
+          // height: 50px;
+          // width: 50px;
+          // }
+        }
+      }
+    }
+  }
+}
+
+.add-employee-container-true,
+.update-employee-container-true {
+  position: absolute;
+  top: 5em;
+  right: 5em;
+  // height: fit-content;
+  width: 70em;
+  opacity: 0.95;
+  background-color: var(--primary-text-color);
+  border: 1px solid black;
+  z-index: 1;
+  animation: moveDown 1s;
+
+  button {
+    width: 2em;
+    height: 2em;
+    border: none;
+    font-size: large;
+    color: var(--icon-color);
+    background-color: var(--primary-text-color);
+    cursor: pointer;
+    position: absolute;
+    margin: 0.5em;
+  }
+}
+
+.add-employee-container-false,
+.update-employee-container-false {
+  display: none;
+}
+
+#employee-settings {
+  ul {
+    position: absolute;
+    display: inline;
+    background-color: var(--primary-text-color);
+    direction: rtl;
+    width: 6em;
+    height: fit-content;
+    padding: 1em;
+    li {
+      list-style-type: none;
+      text-align: center;
+      margin-bottom: 0.5em;
+
+      a {
+        color: var(--icon-color);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    }
+    li:hover {
+      a {
+        color: var(--secondary-text-color);
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.bannerContacts {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding: 0.8em 0em;
+  text-align: center;
+  background-color: var(--secondary-text-color);
+  color: var(--primary-text-color);
+}
+
+.innerBox {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: right;
+  .text {
+    margin-right: 2em;
+  }
+}

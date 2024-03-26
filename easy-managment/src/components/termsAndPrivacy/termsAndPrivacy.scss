@@ -1,0 +1,14 @@
+.termsAndPrivacy-box {
+  background-color: var(--primary-text-color);
+  padding: 1em 8em;
+  direction: rtl;
+}
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    padding-left: 1em;
+    color: var(--quaternary-text-color);
+  }
+}

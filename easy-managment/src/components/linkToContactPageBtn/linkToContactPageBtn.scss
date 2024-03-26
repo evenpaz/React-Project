@@ -1,0 +1,20 @@
+.green-btn {
+  background-color: var(--secondary-bg-color);
+  padding: 1em 3em;
+  border: none;
+  border-radius: 4px;
+  margin-right: 3em;
+  font-size: large;
+  transition: ease-out 0.3s;
+  a {
+    color: var(--primary-text-color);
+  }
+}
+.green-btn:hover {
+  background-color: var(--primary-text-color);
+  transition: ease-out 0.3s;
+  cursor: pointer;
+  a {
+    color: var(--secondary-bg-color);
+  }
+}

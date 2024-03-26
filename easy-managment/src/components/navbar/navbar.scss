@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .navbar__links {
+    a {
+      margin-left: 3em;
+      color: var(--primary-text-color);
+      font-size: 1.25em;
+      transition: ease-out 0.3s;
+    }
+  }
+}

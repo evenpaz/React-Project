@@ -1,0 +1,25 @@
+.mainPage {
+  background-color: var(--primary-bg-color);
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.qa_and_formContact_box {
+  display: flex;
+  justify-content: center;
+  padding: 3em 8em;
+  text-align: center;
+}
+
+#img-carousel__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  p {
+    font-size: 0.8em;
+  }
+}

@@ -1,0 +1,31 @@
+@keyframes moveBackAndForth {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-35em);
+  }
+}
+
+.customersLogoBanner {
+  overflow: hidden;
+  margin: 0.8em 8em;
+}
+
+.customersLogo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: inherit;
+  overflow: visible;
+  animation: moveBackAndForth 45s linear infinite;
+
+  .logo {
+    margin: 0.8em 3em;
+  }
+}
+
+h1 {
+  text-align: center;
+}

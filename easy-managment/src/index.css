@@ -1,0 +1,68 @@
+#root {
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #283756;
+  --footer-bg-color: #222f49;
+  --tertiary-text-color: #26c2ce;
+  --quaternary-text-color: #ae3d3b;
+  --primary-bg-color: #eeeeee;
+  --secondary-bg-color: #5cb85c;
+  --primary-font-size: 1em;
+  --icon-color: #a7a7a7;
+  color: var(--secondary-text-color);
+}
+
+* {
+  text-decoration: none;
+  font-family: "Noto Sans Hebrew", sans-serif;
+}
+
+/* input type date style */
+* {
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url("../../../public/calendar-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+}
+
+/* *input type file style */
+* {
+  input[type="file"]::file-selector-button {
+    display: none;
+  }
+  .uploadFileDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      border: none;
+      width: fit-content;
+      cursor: pointer;
+      position: absolute;
+      opacity: 0;
+    }
+  }
+  label {
+    background-color: var(--secondary-text-color);
+    color: var(--primary-bg-color);
+    /* cursor: pointer; */
+    span {
+      display: flex;
+      align-items: center;
+      float: right;
+      p {
+        padding: 0;
+        margin: 0 1em;
+      }
+    }
+  }
+  /* label:hover { */
+  /* transition: ease-out 0.3s;
+    background-color: var(--icon-color);
+    color: var(--secondary-text-color);
+    cursor: pointer; */
+  /* } */
+}

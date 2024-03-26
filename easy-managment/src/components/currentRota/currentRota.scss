@@ -1,0 +1,16 @@
+.currentRota-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--icon-color);
+  background-color: var(--secondary-text-color);
+  color: white;
+  .currentRota-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1em 0;
+    background-color: var(--icon-color);
+  }
+}

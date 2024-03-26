@@ -1,0 +1,94 @@
+.iconAndTextBtn-container {
+  display: flex;
+  align-items: center;
+  a {
+    color: var(--primary-text-color);
+  }
+  .iconAndTextBtn {
+    margin: 0 0.5em;
+
+    .iconAndTextBtn--link {
+      display: flex;
+      align-items: center;
+      p {
+        margin: 0 0.5em;
+      }
+    }
+  }
+  #greenBtn {
+    background-color: #58cd58;
+  }
+  #orangeBtn {
+    background-color: #ff9058;
+  }
+  #blueBtn {
+    background-color: #58b1dd;
+  }
+  #purpleBtn {
+    background-color: #ab68ee;
+  }
+  #redBtn {
+    background-color: #dd5858;
+  }
+}
+
+#greenBtn,
+#orangeBtn,
+#blueBtn,
+#purpleBtn,
+#blueLightBtn,
+#redBtn {
+  border-radius: 20px;
+  padding: 0.5em 2em;
+  transition: ease-out 0.3s;
+  margin: 0.3em;
+  width: 90%;
+  a {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.in_flex_column {
+  flex-direction: column;
+  margin: 1em;
+}
+
+.in_flex_row-reverse {
+  flex-direction: row-reverse;
+}
+
+.in_flex_row {
+  flex-direction: row;
+  #greenBtn,
+  #orangeBtn,
+  #blueBtn,
+  #purpleBtn,
+  #blueLightBtn,
+  #redBtn {
+    width: fit-content;
+    margin: 1em;
+    p {
+      color: white;
+    }
+  }
+}
+
+.iconAndTextBtn--link:hover {
+  color: var(--primary-text-color);
+}
+#greenBtn:hover {
+  background-color: #00b300;
+}
+#orangeBtn:hover {
+  background-color: #ff5500;
+}
+#blueBtn:hover {
+  background-color: #0088cc;
+}
+#purpleBtn:hover {
+  background-color: #8c2eeb;
+}
+#redBtn:hover {
+  background-color: #cc0000;
+}

@@ -1,0 +1,26 @@
+.contentBoxOption3-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1em 8em;
+  p {
+    font-size: var(--primary-font-size);
+  }
+  a {
+    color: var(--quaternary-text-color);
+  }
+}
+
+.contentBoxOption3 {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  padding: 2em;
+  background-color: var(--primary-text-color);
+
+  .contentBoxOption3__titleAndText {
+    text-align: right;
+    padding-left: 8em;
+  }
+}

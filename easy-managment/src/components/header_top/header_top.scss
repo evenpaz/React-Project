@@ -1,0 +1,34 @@
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--primary-font-size);
+  color: var(--primary-text-color);
+}
+
+.header_top__login-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 5rem;
+  color: var(--primary-text-color);
+  transition: ease-out 0.3s;
+}
+
+.header_top__phone-num {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10em;
+  transition: ease-out 0.3s;
+  cursor: pointer;
+}
+
+.header_top__login-link:hover,
+.header_top__phone-num:hover {
+  color: var(--tertiary-text-color);
+}
+
+.header_top__login-link:active,
+.header_top__phone-num:active {
+  color: var(--quaternary-text-color);
+}
